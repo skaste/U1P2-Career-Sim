@@ -6,7 +6,7 @@ body{
   overflow: hidden;
 }
 .box-1 h2{
-  background--color: #142d4c;
+  background-color: #142d4c;
 }
 .topnav a{
   float: left;
@@ -15,12 +15,13 @@ body{
   text-align: center;
   padding:14px;
   text-decoration:none;
-  font size: 15px;
-  border-radius:;
+  font-size: 15px;
+  border-radius:10%;
 }
 .topnav a:hover{
   background-color:antiquewhite;
   color:#9fd3c7;
+  transition: .9s;
 }
 .topnav a.active{
   background-color: #9fd3c7;
@@ -38,6 +39,13 @@ body{
   display: flex;
   border: #385170 1px solid;
   align-items: center;
+}
+.box-1{
+flex:3;
+}
+.box-2{
+  flex:1;
+  justify-content: right;
 }
 /* .first-color (words and border{ 
 	background: #ececec; 
