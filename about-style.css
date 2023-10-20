@@ -45,9 +45,14 @@ h3{
   text-align: center;
 }
 p{
-  color: #ececec;
+  color: #142d4c;
   font-family: 'Courier New', Courier, monospace;
   max-width: 50rem;
+  background-color: #9fd3c7;
+  border-radius: 5px;
+  padding:2px;
+  margin: 2px;
+  border:#ececec solid 2px;
 }
 .container-3{
   display:flex;
@@ -61,7 +66,7 @@ p{
   flex-direction:row;
   flex-wrap: wrap;
   align-content:flex-start;
-  justify-content:center;
+  justify-content:flex-start;
   align-items:center;
   color: #ececec;
   background-color: none;
@@ -83,6 +88,6 @@ p{
 }
 .container-3 .box-2 .image{
   display:flex;
-  max-width: 100%;
+  max-width: 150%;
   max-height: auto;
 }

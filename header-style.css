@@ -8,9 +8,6 @@ body{
   background-color:#142d4c;
   overflow: hidden;
 }
-.box-1 h2{
-  /* background-color: #142d4c; */
-}
 .topnav a{
   float: left;
   display: block;
