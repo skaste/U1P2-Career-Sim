@@ -91,3 +91,8 @@ p{
   max-width: 150%;
   max-height: auto;
 }
+.image{
+  max-height: 500px;
+  min-width: 200px;
+  width:100%;
+}

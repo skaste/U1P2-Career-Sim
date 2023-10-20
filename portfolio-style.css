@@ -1,3 +1,4 @@
+
 body{
   display: flex;
   flex-direction: column;
@@ -94,16 +95,14 @@ p{
   align-self: center;
   box-sizing: 60px;
 }
-.container-2 .image{
-  display:flex;
-  max-width: 40%;
-  max-height:auto;
+.box-2 img{
+  max-height: 300px;
+  min-width: 200px;
+  width:100%;
+  /* height:auto;
+  position: relative; */
 }
-.container-3 .box-2 .image{
-  display:flex;
-  max-width: 150%;
-  max-height: auto;
-}
+
 
 .container-2 a.active{
   background-color: #9fd3c7;
