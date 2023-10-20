@@ -18,7 +18,14 @@ body{
   font size: 15px;
   border-radius:;
 }
-
+.topnav a:hover{
+  background-color: bisque;
+  color:aqua;
+}
+.topnav a.active{
+  background-color: #385170;
+  color:pink;
+}
 /* .first-color (words and border{ 
 	background: #ececec; 
 }
