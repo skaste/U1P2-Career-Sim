@@ -26,6 +26,14 @@ body{
   background-color: #9fd3c7;
   color:#ececec;
 }
+.container-1{
+  display:flex;
+  padding: 10px;
+  border: #ececec solid 5px;
+  background-color: #142d4c;
+  opacity: .9;
+  font-family: 'Courier New', Courier, monospace;
+}
 /* .first-color (words and border{ 
 	background: #ececec; 
 }
