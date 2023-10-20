@@ -1,6 +1,10 @@
-@media (max-width:1024px){
-  .image{display: none;}
+@media (max-width:750px){
+body{background-color: black;}
+.container-2 img{display:none;}
 }
-/* @media (max-width:390px){
-  display:flex-wrap: content;
-} */
+@media (max-width:390px){
+  div{display:flex-wrap content;
+}
+body{
+  background-color: chartreuse;
+}}
