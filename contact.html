@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./header-style.css"/>
     <link rel="stylesheet" href="./media.css"/>
+    <link rel="stylesheet" href="./contact-style.css"/>
   </head>
   <body>
     <div class="container-1">
@@ -22,17 +23,30 @@
       </div>
     </div>
 
+    <h2>Contact Page</h2>
     <div class="container-2">
-      <div class="box-1"></div>
+      <div class="box-1">
+        <p>If you would like to be contacted please fill out the following information below:</p>
+      </div>
       <div class="box-2"></div>
       <div class="box-3"></div>
     </div>
 
     <div class="container-3">
-      <div class="box-1"></div>
-      <div class="box-2"></div>
-      <div class="box-3"></div>
-      <div class="box-4"></div>
+      <form method="post" action="./submit.html" target="_blank">
+        <label for="fname">First name:</label>
+        <br/>
+        <input type="text" id="fname" name="fname"  placeholder="Career">
+        <br/>
+        <label for="lname">Last name:</label>
+        <br/>
+        <input type="text" id="lname" name="lname" placeholder="Prep12"/>
+        <br/>
+        <label for="email">Email</label>
+        <br/>
+        <input type="email" id="email"  name="email"  placeholder="youremail@email.com"/>
+        <input type="submit">
+      </form>
     </div>
   </body>
 </html>

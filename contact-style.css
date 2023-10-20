@@ -1,0 +1,11 @@
+h2{
+  color:#ececec;
+  text-align: center;
+}
+p{color: #ececec;
+text-align: center;}
+form{
+  display: flex;
+  justify-content: center;
+  color: #ececec;
+} 

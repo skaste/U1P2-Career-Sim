@@ -1,6 +1,6 @@
-@media only screen and (max-width:1024){
-  display:flex-wrap: after;
+@media (max-width:1024px){
+  .image{display: none;}
 }
-@media only screen and (max-width:390){
+/* @media (max-width:390px){
   display:flex-wrap: content;
-}
+} */
