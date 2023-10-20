@@ -1,0 +1,135 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  color: #9fd3c7;
+  text-align: center;
+}
+.container-2{
+  display:flex;
+  flex-direction: column;
+  background-color: none;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.container-2 div{
+  display: flex;
+  box-sizing: none;
+  align-items:center;
+  justify-content:space-evenly;
+  flex-direction: column;
+}
+.container-2 .box-1{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
+  align-items:center;
+  color: #ececec;
+  background-color: none;
+  
+}
+.container-2 .box-2{
+  display:inline-flex;
+  align-content:flex-start; 
+  justify-content: flex-start;
+  align-items:center;
+  max-width:150%;
+  align-self: center;  
+  box-sizing: width 75%;
+  height: fit-content;
+}
+.container-2 .box-3{
+display:inline-flex;
+justify-content: flex-end;
+flex-basis: auto;
+align-self: center;
+width: 40%;
+height: auto;
+box-sizing: border-box;
+/* align-content: center; */
+}
+h3{
+  color: #ececec;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+p{
+  color: #142d4c;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 50rem;
+  background-color: #9fd3c7;
+  border-radius: 5px;
+  padding:4px;
+  margin: 2px;
+  border:#ececec solid 2px;
+}
+.container-3{
+  display:flex;
+  background-color: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+.container-3 .box-1{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  justify-content:flex-end;
+  align-items:center;
+  color: #ececec;
+  background-color: none;
+}
+.container-3 .box-2{
+  display:inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items:flex-end;
+  max-width:50%;
+  align-self: center;
+  box-sizing: 60px;
+}
+.container-2 .image{
+  display:flex;
+  max-width: 40%;
+  max-height:auto;
+}
+.container-3 .box-2 .image{
+  display:flex;
+  max-width: 150%;
+  max-height: auto;
+}
+
+.container-2 a.active{
+  background-color: #9fd3c7;
+  color:#0e0d0d;
+}
+.container-2 a{
+  text-decoration: none;
+}
+.container-3 a{
+  text-decoration: none;
+}
+.container-2 a:hover{
+  background-color:#9fd3c7;
+  color:#9fd3c7;
+  transition: .9s;
+}
+.container-2 a.active{
+  background-color: #9fd3c7;
+  color:#0e0d0d;
+}
+.container-3 a:hover{
+    background-color:#9fd3c7;
+    color:#9fd3c7;
+    transition: .9s;
+  }
+.container-3 a.active{
+    background-color: #9fd3c7;
+    color:#0e0d0d;}
+  
