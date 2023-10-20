@@ -34,6 +34,11 @@ body{
   opacity: .9;
   font-family: 'Courier New', Courier, monospace;
 }
+.container-1 div{
+  display: flex;
+  border: #385170 1px solid;
+  align-items: center;
+}
 /* .first-color (words and border{ 
 	background: #ececec; 
 }
