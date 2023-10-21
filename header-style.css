@@ -34,7 +34,6 @@ body{
 }
 .container-1 div{
   display: flex;
-  border: #385170 1px solid;
   align-items: center;
 }
 .box-1{
